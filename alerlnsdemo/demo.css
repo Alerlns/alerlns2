@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+}
+body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: #909090;
+}
+.head img {
+  border-radius: 110px;
+  width: 220px;
+  height: 220px;
+}
+.body {
+  flex: 1;
+  padding: 40px;
+  font-size: 33px;
+}
+.body p {
+  margin-top: 10px;
+}
+.zanding {
+  padding-top: 40px;
+  font-size: 50px;
+ color: blue;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background-color: #909090;
+}
+.footer .pp {
+  font-size: 27px;
+  font-style: oblique;
+  text-decoration: underline;
+}
+.ppt {
+  font-size: 20px;
+  margin-top: 10px;
+}
